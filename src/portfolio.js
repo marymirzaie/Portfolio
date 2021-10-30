@@ -7,27 +7,27 @@ import emoji from "react-easy-emoji";
 // Summary And Greeting Section
 
 const illustration = {
-  animated: false // Set to false to use static SVG
+  animated: true // Set to false to use static SVG
 };
 
 const greeting = {
-  username: "Saber Pourrahimi",
-  title: "Hi all, I'm Saber",
+  username: "Mary Mirzaie",
+  title: "Hi all, I'm Mary",
   subTitle: emoji(
-    "A passionate Front-End Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / React Native and some other cool libraries and frameworks."
+    "Fast learning software engineer. Well Experienced with software engineering best practices and design patterns. Can efficiently collaborate with other members of a team for designing and implementing a feature."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1_vu02uH8KoG6hfpG_LJOHDQPU4lB3Yni5HUkZpEyvkw/edit?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1X8o8tRMFtvyoLCi2ijZfSZJBBaFCuLp4coNFMHnFUQI/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/spr021",
-  linkedin: "https://www.linkedin.com/in/saber-pourrahimi-534795192/",
-  gmail: "saber.pourrahimi.1999@gmail.com",
-  stackoverflow: "https://stackoverflow.com/users/11072707/saber-pourrahimi",
+  github: "https://github.com/marymirzaie",
+  linkedin: "https://www.linkedin.com/in/fakemariastyles/",
+  gmail: "mary.mirzayee@gmail.com",
+  stackoverflow: "https://stackoverflow.com/users/11884123/maryam-mirzaie",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -37,14 +37,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FRONT END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY ANDROID DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Android / User Interfaces for your mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Used many of the Architecture Components, including: Room, Lifecycle, Navigation."),
     emoji(
-      "⚡ Integration of third party services such as Firebase / SupaBase" /* / AWS / Digital Ocean */
+      "⚡ Integration of third party services such as Jetpack / dependency injection" /* / AWS / Digital Ocean */
     )
   ],
 
@@ -53,44 +53,12 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "android",
+      fontAwesomeClassname: "fab fa-android"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "TypeScript",
-      fontAwesomeClassname: "fab fa-ts"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "redux",
-      fontAwesomeClassname: "fab fa-redux"
-    },
-    {
-      skillName: "mateial ui",
-      fontAwesomeClassname: "fab fa-mui"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "kotlin",
+      fontAwesomeClassname: "fab fa-kotlin"
     },
     {
       skillName: "docker",
@@ -106,16 +74,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Amir Kabir University",
-      logo: require("./assets/images/amirkabir.png"),
-      subHeader: "Bachelor of Science in Electrical Engineering",
-      duration: "September 2017 - June 2021",
+      schoolName: "University of Tehran",
+      logo: require("./assets/images/University_of_Tehranpng.png"),
+      subHeader: "Bachelor of Science in Computer Engineering",
+      duration: "October 2016 - November 2021",
     },
     {
-      schoolName: "Allame Heli 7",
+      schoolName: "Farzanegan 8",
       logo: require("./assets/images/sampad.png"),
       subHeader: "Diploma of Science in Math and Physics",
-      duration: "September 2013 - June 2017",
+      duration: "June 2012 - June 2016",
     }
   ]
 };
@@ -147,18 +115,11 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Front End Developer",
-      company: "Self employed",
-      companylogo: require("./assets/images/freelancer.png"),
-      date: "August 2019 – February 2020",
-      desc: "‌Building web applications and grow my skills to create knowledge and CV.",
-    },
-    {
-      role: "Front-End Developer",
-      company: "Hadish Sabz Parse",
-      companylogo: require("./assets/images/hadish-sabz.png"),
-      date: "March 2020 – August 2021",
-      desc: "Comprehensive sales system web application. Developed with ReactJs and TypeScript."
+      role: "Android Developer",
+      company: "Divar",
+      companylogo: require("./assets/images/divar.jpeg"),
+      date: "July 2019 – Present",
+      desc: "Divar is an online classified ads and E-commerce mobile app with over 40 million users with different verticals focusing on ease of trading with a server-driven ui.",
     }
   ]
 };
@@ -178,22 +139,17 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/panoramic.png"),
-      projectName: "Panoramic",
-      projectDesc: "aplication for sales TVs",
+      image: require("./assets/images/pomodoro.png"),
+      projectName: "Pomodoro",
+      projectDesc: "Open-source, simple minimalistic pomodoro app helping users to increase productivity and track time.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "https://app.panoramic.co.ir/"
+          name: "Git Hub",
+          url: "https://github.com/marymirzaie/Pomodoro"
         }
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/hadish-sabz.png"),
-      projectName: "Hadish Sabz Selse System",
-      projectDesc: "Supervise and perform all internal sales processes of the company",
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -248,7 +204,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -311,8 +267,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+(98) 912 956 8749",
-  email_address: "saber.pourrahimi.1999@gmail.com"
+  number: "+(98) 910062-7926",
+  email_address: "mary.mirzayee@gmail.com"
 };
 
 // Twitter Section
