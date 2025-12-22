@@ -3,6 +3,15 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+
+// Splash Screen
+
+const splashScreen = {
+  enabled: true, // set false to disable splash screen
+  animation: splashAnimation,
+  duration: 2000 // Set animation duration as per your animation
+};
 
 // Summary And Greeting Section
 
@@ -17,7 +26,7 @@ const greeting = {
     "Fast learning software engineer. Well Experienced with software engineering best practices and design patterns. Can efficiently collaborate with other members of a team for designing and implementing a feature."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1X8o8tRMFtvyoLCi2ijZfSZJBBaFCuLp4coNFMHnFUQI/edit?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1aUOEPhfF83jm9dGnqi5kwGndTjXCS3bfSKYlrnDUoKM/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -63,6 +72,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "react-native",
+      fontAwesomeClassname: "fab fa-react"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -78,12 +91,6 @@ const educationInfo = {
       logo: require("./assets/images/University_of_Tehranpng.png"),
       subHeader: "Bachelor of Science in Computer Engineering",
       duration: "October 2016 - November 2021",
-    },
-    {
-      schoolName: "Farzanegan 8",
-      logo: require("./assets/images/sampad.png"),
-      subHeader: "Diploma of Science in Math and Physics",
-      duration: "June 2012 - June 2016",
     }
   ]
 };
@@ -115,11 +122,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Android Developer",
+      role: "Android Engineer",
       company: "Divar",
       companylogo: require("./assets/images/divar.jpeg"),
-      date: "July 2019 – Present",
+      date: "July 2019 – April 2022",
       desc: "Divar is an online classified ads and E-commerce mobile app with over 40 million users with different verticals focusing on ease of trading with a server-driven ui.",
+    },
+    {
+      role: "Android Engineer",
+      company: "Zalando",
+      companylogo: require("./assets/images/zalando.jpeg"),
+      date: "September 2022 – Present",
+      desc: "Zalando is a European online fashion retailer with a focus on fast fashion and a wide range of products.",
     }
   ]
 };
@@ -263,11 +277,20 @@ const podcastSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
+// Resume Section
+const resumeSection = {
+  title: "Resume",
+  subtitle: "Feel free to download my resume",
+
+  // Please Provide with Your Podcast embeded Link
+  display: true // Set false to hide this section, defaults to true
+};
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+(98) 910062-7926",
+  number: "+(49) 15753415137",
   email_address: "mary.mirzayee@gmail.com"
 };
 
@@ -278,10 +301,13 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
 export {
   illustration,
   greeting,
   socialMediaLinks,
+  splashScreen,
   skillsSection,
   educationInfo,
   techStack,
@@ -293,5 +319,7 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  isHireable,
+  resumeSection
 };

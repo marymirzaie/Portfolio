@@ -9,8 +9,18 @@ export default function Footer() {
   return (
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
+        
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by Mary")}
+          {emoji("Made with ❤️ by ")}
+          <a
+            href="https://github.com/spr021/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className={isDark ? "dark-mode footer-link" : "footer-link"}>
+              Saber Pourrahimi
+            </span>
+          </a>
         </p>
       </div>
     </Fade>
