@@ -142,6 +142,178 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
+  title: "Open source, built in public.",
+  subtitle:
+    "A growing collection of Android apps, experiments, and practical tools. Explore the work, inspect the code, and use whatever helps you build.",
+  githubUsername: "marymirzaie",
+  featuredProject: "Pomodoro",
+  projects: [
+    {
+      name: "Pomodoro",
+      description:
+        "A calm, minimal focus timer built with Jetpack Compose and a production-minded Android architecture.",
+      url: "https://github.com/marymirzaie/Pomodoro",
+      category: "Android",
+      language: "Kotlin",
+      stars: 11,
+      forks: 1,
+      tags: ["Jetpack Compose", "Clean Architecture", "Hilt"],
+      image: require("./assets/images/pomodoro.png"),
+      accent: "#ff5c35"
+    },
+    {
+      name: "Villager Hunt",
+      description:
+        "An Android companion for tracking Animal Crossing villager hunting sessions.",
+      url: "https://github.com/marymirzaie/VillagerHunt",
+      category: "Android",
+      language: "Kotlin",
+      tags: ["Android", "Tracker"],
+      accent: "#76c7a2"
+    },
+    {
+      name: "Compose Practice",
+      description:
+        "A hands-on collection of Jetpack Compose patterns, components, and UI experiments.",
+      url: "https://github.com/marymirzaie/compose-practice",
+      category: "Experiments",
+      language: "Kotlin",
+      stars: 1,
+      tags: ["Compose", "UI"],
+      accent: "#8b7cf6"
+    },
+    {
+      name: "Coin Market",
+      description:
+        "A mobile cryptocurrency market explorer powered by CoinMarketCap data.",
+      url: "https://github.com/marymirzaie/Coin-Market",
+      category: "Android",
+      language: "Kotlin",
+      tags: ["API", "Market data"],
+      accent: "#f3b63f"
+    },
+    {
+      name: "Around Me",
+      description:
+        "A location-based Android project for discovering useful places nearby.",
+      url: "https://github.com/marymirzaie/Around-Me",
+      category: "Android",
+      language: "Kotlin",
+      tags: ["Location", "Maps"],
+      accent: "#4c8bf5"
+    },
+    {
+      name: "Text to Speech",
+      description:
+        "A focused Android experiment for turning written content into spoken audio.",
+      url: "https://github.com/marymirzaie/Text-To-Speech",
+      category: "Experiments",
+      language: "Kotlin",
+      tags: ["Accessibility", "Audio"],
+      accent: "#ef6fa8"
+    },
+    {
+      name: "Feed Me",
+      description:
+        "A small Kotlin application for fetching and presenting a clean feed of posts.",
+      url: "https://github.com/marymirzaie/Feed-Me",
+      category: "Android",
+      language: "Kotlin",
+      forks: 1,
+      tags: ["Networking", "Feed"],
+      accent: "#ed7f48"
+    },
+    {
+      name: "Hackathon 2019",
+      description:
+        "A rapid Android prototype created during a collaborative hackathon.",
+      url: "https://github.com/marymirzaie/Hackathon2019",
+      category: "Experiments",
+      language: "Kotlin",
+      tags: ["Prototype", "Team project"],
+      accent: "#55b3b1"
+    },
+    {
+      name: "Love Calculator",
+      description:
+        "A playful Kotlin app exploring input, interaction, and lightweight UI state.",
+      url: "https://github.com/marymirzaie/Love-Calculator",
+      category: "Experiments",
+      language: "Kotlin",
+      tags: ["Android", "UI"],
+      accent: "#f06476"
+    },
+    {
+      name: "Compiler — Fall 98",
+      description:
+        "University compiler coursework and implementations collected in Java.",
+      url: "https://github.com/marymirzaie/Compiler-Fall98",
+      category: "Academic",
+      language: "Java",
+      tags: ["Compiler", "Coursework"],
+      accent: "#d9833b"
+    },
+    {
+      name: "Algorithm Design — Fall 98",
+      description:
+        "Algorithm design exercises and problem-solving work implemented in Python.",
+      url: "https://github.com/marymirzaie/DesignAlgorith-Fall98",
+      category: "Academic",
+      language: "Python",
+      tags: ["Algorithms", "Coursework"],
+      accent: "#3676a8"
+    },
+    {
+      name: "Around Me — Bootcamp",
+      description:
+        "The bootcamp edition of Around Me, documenting an early Android learning journey.",
+      url: "https://github.com/marymirzaie/Around-Me-Android-bootcamp",
+      category: "Academic",
+      language: "Kotlin",
+      tags: ["Android", "Bootcamp"],
+      accent: "#6d9eeb"
+    },
+    {
+      name: "Portfolio",
+      description:
+        "The open-source code behind this portfolio and project directory.",
+      url: "https://github.com/marymirzaie/Portfolio",
+      category: "Experiments",
+      language: "JavaScript",
+      tags: ["React", "Portfolio"],
+      accent: "#09a88a"
+    },
+    {
+      name: "Colors",
+      description:
+        "A compact Android color and interface exercise built while learning Kotlin.",
+      url: "https://github.com/marymirzaie/colors",
+      category: "Academic",
+      language: "Kotlin",
+      tags: ["Android", "UI basics"],
+      accent: "#b36ee8"
+    },
+    {
+      name: "Around Me — Sign Up",
+      description:
+        "A standalone exploration of the onboarding flow for the Around Me app.",
+      url: "https://github.com/marymirzaie/AroundMe-SignUp",
+      category: "Experiments",
+      language: "Kotlin",
+      tags: ["Onboarding", "Android"],
+      accent: "#4d9be6"
+    },
+    {
+      name: "Around Me — Bazaar",
+      description:
+        "An early Around Me Android build prepared for the Café Bazaar ecosystem.",
+      url: "https://github.com/marymirzaie/Around-Me-For_Cafe-Bazzare",
+      category: "Android",
+      language: "Kotlin",
+      tags: ["Location", "Distribution"],
+      accent: "#5fa88a"
+    }
+  ],
   showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
@@ -165,7 +337,7 @@ const bigProjects = {
       ]
     },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Featured inside the open-source portal above
 };
 
 // Achievement Section
