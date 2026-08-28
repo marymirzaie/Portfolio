@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8528fee5.css",
-    "main.js": "/Portfolio/static/js/main.6ab6e5fe.js",
-    "static/css/534.8b21a22a.chunk.css": "/Portfolio/static/css/534.8b21a22a.chunk.css",
-    "static/js/534.80578dfd.chunk.js": "/Portfolio/static/js/534.80578dfd.chunk.js",
-    "static/css/205.aef54268.chunk.css": "/Portfolio/static/css/205.aef54268.chunk.css",
-    "static/js/205.0b61a1cb.chunk.js": "/Portfolio/static/js/205.0b61a1cb.chunk.js",
+    "main.css": "/Portfolio/static/css/main.716cbdcf.css",
+    "main.js": "/Portfolio/static/js/main.1e81fd08.js",
+    "static/css/990.19de7b4f.chunk.css": "/Portfolio/static/css/990.19de7b4f.chunk.css",
+    "static/js/990.5da295c9.chunk.js": "/Portfolio/static/js/990.5da295c9.chunk.js",
     "static/media/University_of_Tehranpng.png": "/Portfolio/static/media/University_of_Tehranpng.a8a782f116e597974522.png",
     "static/media/Montserrat-Regular.ttf": "/Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/Portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -19,15 +17,13 @@
     "static/media/resume.pdf": "/Portfolio/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/Portfolio/index.html",
     "static/media/talksCardBack.svg": "/Portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.8528fee5.css.map": "/Portfolio/static/css/main.8528fee5.css.map",
-    "main.6ab6e5fe.js.map": "/Portfolio/static/js/main.6ab6e5fe.js.map",
-    "534.8b21a22a.chunk.css.map": "/Portfolio/static/css/534.8b21a22a.chunk.css.map",
-    "534.80578dfd.chunk.js.map": "/Portfolio/static/js/534.80578dfd.chunk.js.map",
-    "205.aef54268.chunk.css.map": "/Portfolio/static/css/205.aef54268.chunk.css.map",
-    "205.0b61a1cb.chunk.js.map": "/Portfolio/static/js/205.0b61a1cb.chunk.js.map"
+    "main.716cbdcf.css.map": "/Portfolio/static/css/main.716cbdcf.css.map",
+    "main.1e81fd08.js.map": "/Portfolio/static/js/main.1e81fd08.js.map",
+    "990.19de7b4f.chunk.css.map": "/Portfolio/static/css/990.19de7b4f.chunk.css.map",
+    "990.5da295c9.chunk.js.map": "/Portfolio/static/js/990.5da295c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8528fee5.css",
-    "static/js/main.6ab6e5fe.js"
+    "static/css/main.716cbdcf.css",
+    "static/js/main.1e81fd08.js"
   ]
 }
